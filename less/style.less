@@ -1,0 +1,64 @@
+@color-text: rgb(102, 102, 102);
+@color-link: #0088ce;
+
+a {
+    color: @color-link;
+}
+a,
+a:hover {
+    text-shadow: 0 0 @color-text;
+}
+abbr {
+    border-bottom: dotted 1px @color-text;
+}
+blockquote {
+    font-size: 0.9em;
+    font-style: italic;
+    margin: 1rem;
+    &:after,
+    &:before {
+        content: '"';
+    }
+}
+h1,
+h2,
+h3 {
+    border-bottom: solid 1px @color-text;
+    margin-bottom: 0.5em;
+    &:not(:first-child) {
+        margin-top: 0.5em;
+    }
+}
+h1 {
+    font-size: 2em;
+    line-height: 1em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.25em;
+}
+ol,
+ul {
+    margin: 0.5em 0;
+}
+ol li {
+    list-style-type: decimal;
+}
+p {
+    line-height: 1.1em;
+    margin: 0.5em 0;
+}
+ul {
+    li {
+        list-style-type: disc;
+    }
+    ul {
+        margin-left: 1em;
+    }
+}
+.big {
+    font-size: 2em;
+    margin: 2em 0;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "web-accessability-intro",
+  "version": "0.0.0",
+  "homepage": "https://github.com/megoth/web-accessability-intro",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "impress.js": "~0.5.3"
+  }
+}
